@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b22">
+  <meta name="description" content="Inscríbete a la Carrera Atlética Salazar de las Palmas 5K, 443 años de tradición.">
+  <title>Salazar de las Palmas 5K | 443 años de tradición</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--forest:#193d0d;--forest2:#2d580d;--lime:#c9ed12;--paper:#f4f6ef;--ink:#17251f;--muted:#68746c;--white:#fff;--gold:#d9aa3c}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Arial,sans-serif}
+    a{color:inherit}button,input,select,textarea{font:inherit}.container{width:min(1160px,92%);margin:auto}
+    .topbar{background:var(--forest);color:#e8efdf;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;padding:11px 0}
+    .topbar .container{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    header{position:absolute;z-index:3;top:42px;left:0;width:100%;color:white}.nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-mark{width:44px;height:44px;border:2px solid var(--lime);border-radius:50%;display:grid;place-items:center;color:var(--lime);font-weight:900;font-family:"Barlow Condensed",sans-serif;font-size:1.15rem}
+    .brand strong{display:block;font-size:.86rem;letter-spacing:.07em}.brand small{display:block;color:#c6d3c7;font-size:.68rem;margin-top:3px;letter-spacing:.13em}
+    .nav-links{display:flex;gap:24px;align-items:center}.nav-links a{text-decoration:none;font-size:.87rem;color:#f0f4ee}.nav-links a:hover{color:var(--lime)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:0;border-radius:5px;padding:15px 22px;text-decoration:none;text-transform:uppercase;font-weight:800;font-size:.82rem;letter-spacing:.055em;cursor:pointer;transition:transform .2s,background .2s}
+    .btn:hover{transform:translateY(-2px)}.btn-lime{background:var(--lime);color:var(--forest)}.btn-outline{border:1px solid #ffffff80;color:#fff;background:transparent}
+    .hero{min-height:0;background:none;display:block;color:var(--ink);position:relative;overflow:visible}
+    .hero:after{content:"";position:absolute;bottom:-1px;left:0;width:100%;height:95px;background:var(--paper);clip-path:polygon(0 70%,100% 0,100% 100%,0 100%)}
+    .hero-content{padding-top:115px;padding-bottom:110px;position:relative;z-index:1;max-width:760px}
+    .eyebrow{color:var(--lime);font-weight:800;letter-spacing:.18em;text-transform:uppercase;font-size:.78rem;display:flex;align-items:center;gap:10px}.eyebrow:before{content:"";height:2px;width:30px;background:var(--lime)}
+    h1,h2,h3{font-family:"Barlow Condensed",Impact,sans-serif;text-transform:uppercase;margin:0;line-height:.94}
+    h1{font-size:clamp(4rem,10vw,8.6rem);letter-spacing:-.035em;margin:20px 0 8px}h1 span{display:block;color:var(--lime)}.hero-sub{font-family:"Barlow Condensed",sans-serif;font-size:clamp(1.4rem,3vw,2.1rem);font-weight:700;letter-spacing:.12em}
+    .hero p{max-width:540px;color:#e2e8df;line-height:1.75;margin:22px 0 28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .quickfacts{position:relative;z-index:2;margin-top:-15px;display:grid;grid-template-columns:repeat(3,1fr);background:white;box-shadow:0 18px 45px #142b1c12;border-radius:8px;overflow:hidden}
+    .fact{padding:26px 30px;border-right:1px solid #e8ebe4;display:flex;gap:15px;align-items:center}.fact:last-child{border:0}.fact-icon{width:43px;height:43px;border-radius:50%;background:#edf4d8;color:var(--forest);display:grid;place-items:center;font-size:1.25rem}.fact strong{display:block;font-size:.95rem}.fact small{display:block;color:var(--muted);margin-top:5px;font-size:.79rem}
+    section{padding:90px 0}.section-kicker{color:#52705a;text-transform:uppercase;font-size:.75rem;letter-spacing:.16em;font-weight:800;margin-bottom:13px}.section-title{font-size:clamp(2.8rem,6vw,5rem);color:var(--forest);margin-bottom:18px}.section-intro{color:var(--muted);line-height:1.8;max-width:620px}
+    .about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:55px;align-items:center}.about-visual{min-height:390px;border-radius:10px;overflow:hidden;position:relative;background:linear-gradient(0deg,#102b22d9,transparent 65%),url('assets/salazar-catedral-aerea.jpg') center/cover}
+    .visual-caption{position:absolute;bottom:26px;left:28px;color:white}.visual-caption strong{font-family:"Barlow Condensed",sans-serif;font-size:2.6rem;display:block;text-transform:uppercase}.visual-caption span{color:var(--lime);font-size:.75rem;letter-spacing:.13em;font-weight:800}
+    .feature-list{display:grid;gap:16px;margin-top:28px}.feature{display:flex;gap:13px;align-items:flex-start}.feature-mark{flex:0 0 27px;width:27px;height:27px;border-radius:50%;background:var(--lime);display:grid;place-items:center;font-weight:900;color:var(--forest)}.feature strong{display:block;margin-bottom:5px}.feature p{margin:0;color:var(--muted);line-height:1.65;font-size:.91rem}
+    .dark-section{background:var(--forest);color:white}.dark-section .section-title{color:white}.dark-section .section-kicker{color:var(--lime)}.dark-section .section-intro{color:#c2d0c4}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:38px}.step{padding:27px;border:1px solid #ffffff24;border-radius:8px;background:#ffffff08}.step-number{font-family:"Barlow Condensed",sans-serif;font-size:3.5rem;color:var(--lime);line-height:1}.step h3{font-size:1.65rem;margin:17px 0 10px}.step p{color:#c5d0c7;font-size:.9rem;line-height:1.7;margin:0}
+    .registration-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:38px;align-items:start}.register-aside{background:var(--forest);color:white;padding:32px;border-radius:8px;position:sticky;top:20px}.register-aside h3{font-size:2.5rem;margin:12px 0}.register-aside p{color:#d0dbd1;line-height:1.75;font-size:.92rem}.deadline{border-top:1px solid #ffffff30;margin-top:25px;padding-top:20px}.deadline small{display:block;color:var(--lime);letter-spacing:.1em;font-weight:800}.deadline strong{display:block;margin-top:7px;font-size:1.05rem}
+    .form-card{background:white;border-radius:8px;padding:clamp(22px,4vw,40px);box-shadow:0 15px 50px #183d2f0d}.form-card h3{font-size:2rem;color:var(--forest);margin-bottom:8px}.form-card>p{color:var(--muted);line-height:1.6;font-size:.9rem;margin-bottom:28px}
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.field{display:flex;flex-direction:column;gap:8px}.field.full{grid-column:1/-1}.field label{font-size:.83rem;font-weight:700}.field input,.field select,.field textarea{width:100%;padding:13px 14px;border:1px solid #dce2d9;border-radius:5px;background:#fcfdfb;color:var(--ink);outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:#739348;box-shadow:0 0 0 3px #d6f36a55}.field small{font-size:.75rem;color:var(--muted);line-height:1.5}
+    .consents{display:grid;gap:13px;margin:25px 0}.check{display:flex;align-items:flex-start;gap:10px;font-size:.82rem;line-height:1.55;color:#435047}.check input{margin-top:3px;accent-color:#42633c}.form-note{font-size:.76rem;color:var(--muted);line-height:1.6;margin-top:15px}.submit-btn{width:100%}.status{display:none;padding:14px;border-radius:5px;margin-top:15px;font-size:.88rem;line-height:1.5}.status.show{display:block}.status.error{background:#fff0ed;color:#8a2f1f}.status.success{background:#edf7df;color:#234d24}
+    .faq-list{max-width:800px;margin:35px auto 0}.faq-list details{border-bottom:1px solid #dce2d8;padding:20px 0}.faq-list summary{cursor:pointer;font-weight:800;list-style:none;display:flex;justify-content:space-between;gap:15px}.faq-list summary:after{content:"+";color:#53713b;font-size:1.3rem}.faq-list details[open] summary:after{content:"−"}.faq-list details p{color:var(--muted);line-height:1.75;font-size:.92rem}
+    .final-cta{background:var(--lime);padding:50px 0}.cta-row{display:flex;align-items:center;justify-content:space-between;gap:25px}.cta-row h2{font-size:clamp(2.5rem,5vw,4.3rem);color:var(--forest)}.cta-row p{margin:10px 0 0;color:#3d5138}
+    footer{background:#091b14;color:#d6e0d5;padding:30px 0}.footer-row{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.footer-row small{color:#9eafa0;line-height:1.7}
+    @media(max-width:800px){.nav-links{display:none}.hero{min-height:650px}.quickfacts{grid-template-columns:1fr;margin-top:0}.fact{border-right:0;border-bottom:1px solid #e8ebe4;padding:18px 22px}.about-grid,.registration-grid{grid-template-columns:1fr;gap:28px}.about-visual{min-height:300px}.steps{grid-template-columns:1fr}.register-aside{position:static}.cta-row{align-items:flex-start;flex-direction:column}section{padding:65px 0}}
+    @media(max-width:520px){.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.hero-actions .btn{width:100%}.hero{background-position:58% center}.topbar .container{justify-content:center;text-align:center}.brand strong{font-size:.75rem}.hero-content{padding-top:100px}}
+
+    /* SALAZAR 5K — identidad institucional y fotografía original */
+    .topbar{background:#15350d}
+    header{position:relative;top:auto;background:#fff;color:var(--forest);border-bottom:1px solid #e5eadf}
+    .nav{padding:13px 0;gap:18px}
+    .brand{gap:12px}
+    .brand-mark{display:none}
+    .institutional-logos{display:flex;align-items:center;gap:14px;min-width:0}
+    .institutional-logos img{display:block;object-fit:contain;max-height:66px;width:auto;max-width:190px}
+    .institutional-logos .town-logo{max-width:185px;max-height:60px}
+    .nav-links a{color:var(--forest)}
+    .nav-links a:hover{color:#679900}
+    .nav-links .btn-lime{background:var(--forest);color:#fff}
+    .hero{min-height:unset;display:block;background:none;color:var(--ink);overflow:visible;padding:0}
+    .hero:after{display:none}
+    .hero-banner-wrap{width:100%;background:#243e0b;position:relative;overflow:hidden}
+    .hero-banner{display:block;width:100%;height:auto;max-height:520px;object-fit:cover;object-position:center}
+    .hero-content{max-width:none;padding:0;position:static;z-index:auto}
+    .hero-copy-band{background:linear-gradient(115deg,#173b0b,#2b590d);color:white;padding:32px 0 38px}
+    .hero-copy-inner{display:flex;justify-content:space-between;align-items:center;gap:28px}
+    .hero-copy-band .eyebrow{color:var(--lime)}
+    .hero-copy-band h1{font-size:clamp(3rem,7vw,6.3rem);margin:12px 0 8px;line-height:.86}
+    .hero-copy-band h1 span{display:inline;color:var(--lime)}
+    .hero-copy-band .hero-sub{font-size:clamp(1.1rem,2.6vw,1.8rem);letter-spacing:.07em}
+    .hero-copy-band p{max-width:640px;color:#e6efdf;line-height:1.65;margin:14px 0 0}
+    .hero-copy-actions{flex:0 0 auto;display:grid;gap:10px;min-width:220px}
+    .btn-lime{background:var(--lime);color:#18360b}
+    .quickfacts{margin-top:0;border-radius:0 0 12px 12px;border:1px solid #e4e8dd}
+    .fact-icon{background:#edf6ce;color:#24460c}
+    .section-kicker{color:#4f760f}
+    .about-visual{background:linear-gradient(0deg,#102b22d9,transparent 65%),url('assets/salazar-catedral-aerea.jpg') center/cover}
+    .dark-section{background:linear-gradient(140deg,#102b22,#24480f)}
+    .register-aside{background:linear-gradient(150deg,#173b0d,#2a560d);border:1px solid #d4ec6a33}
+    .step{backdrop-filter:blur(5px)}
+    .gallery-section{background:#eaf0df}
+    .gallery-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;grid-auto-rows:220px;gap:14px;margin-top:30px}
+    .gallery-card{position:relative;overflow:hidden;border-radius:10px;background:#d4dec8;isolation:isolate}
+    .gallery-card:first-child{grid-row:span 2}
+    .gallery-card img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .55s ease}
+    .gallery-card:hover img{transform:scale(1.055)}
+    .gallery-card:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#07190dc9);z-index:0}
+    .gallery-label{position:absolute;z-index:1;left:17px;right:17px;bottom:15px;color:#fff;font-weight:800;font-size:.92rem;text-shadow:0 1px 8px #0008}
+    .gallery-label small{display:block;color:var(--lime);font-size:.67rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:4px}
+    .medal-band{background:#fff;display:grid;grid-template-columns:1fr 160px;gap:20px;align-items:center;border:1px solid #e6e9e1;border-radius:12px;padding:24px 28px;margin-top:28px}
+    .medal-band img{max-height:180px;max-width:100%;object-fit:contain;justify-self:center}
+    .institutional-strip{background:#fff;padding:26px 0;border-top:1px solid #e6e9e1;border-bottom:1px solid #e6e9e1}
+    .institutional-row{display:flex;align-items:center;justify-content:center;gap:36px;flex-wrap:wrap}
+    .institutional-row img{max-width:min(280px,42vw);max-height:80px;object-fit:contain}
+    .final-cta{background:var(--lime)}
+    footer{background:#08180a}
+    .footer-brand-logo{max-width:180px;max-height:60px;object-fit:contain}
+    .design-credit{width:100%;border-top:1px solid #ffffff24;padding-top:16px;margin-top:12px;color:#d7e4cf;font-size:.76rem;letter-spacing:.04em;text-align:center}
+    .design-credit strong{color:var(--lime)}
+    @media(max-width:800px){.institutional-logos img{max-height:48px;max-width:130px}.hero-copy-inner{align-items:flex-start;flex-direction:column}.hero-copy-actions{width:100%;grid-template-columns:1fr 1fr}.gallery-grid{grid-template-columns:1fr 1fr;grid-auto-rows:190px}.gallery-card:first-child{grid-row:span 1}.medal-band{grid-template-columns:1fr 110px}}
+    @media(max-width:520px){.institutional-logos{gap:8px}.institutional-logos img{max-height:40px;max-width:110px}.nav{padding:10px 0}.hero-banner{min-height:160px;object-fit:cover}.hero-copy-band{padding:27px 0}.hero-copy-actions{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr;grid-auto-rows:145px;gap:9px}.gallery-card:first-child{grid-column:span 2}.gallery-label{left:10px;right:10px;bottom:10px;font-size:.76rem}.medal-band{grid-template-columns:1fr;text-align:center;padding:20px}.medal-band img{max-height:150px}.institutional-row{gap:20px}.institutional-row img{max-width:75%;max-height:65px}}
+
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>Carrera Atlética Salazar de las Palmas 5K · 2026</span><span>Inscripciones gratuitas · Mayores de 18 años</span></div></div>
+  <header>
+    <div class="container nav">
+      <a class="institutional-logos" href="#inicio" aria-label="Inicio de Salazar 5K">
+        <img src="assets/logo-alcaldia-dorado.png" alt="Alcaldía de Salazar de las Palmas" />
+        <img class="town-logo" src="assets/logo-salazar-cafe.png" alt="Salazar de las Palmas, cuna del café en Colombia" />
+      </a>
+      <nav class="nav-links"><a href="#carrera">La carrera</a><a href="#galeria">Galería</a><a href="#preguntas">Preguntas frecuentes</a><a href="#inscripcion" class="btn btn-lime">Inscríbete ↗</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-label="Carrera Atlética Salazar de las Palmas 5K 2026">
+      <div class="hero-banner-wrap"><img class="hero-banner" src="assets/portada-carrera-2026.jpg" alt="Portada oficial de la Carrera Atlética Salazar de las Palmas 5K, 7 de noviembre de 2026" /></div>
+      <div class="hero-copy-band"><div class="container hero-copy-inner">
+        <div><div class="eyebrow">443 años de historia y tradición</div>
+          <h1>SALAZAR <span>5K</span></h1>
+          <div class="hero-sub">CORRE POR LA HISTORIA. VIVE EL RETO.</div>
+          <p>Un encuentro con el deporte, la memoria y el orgullo de nuestra tierra. Celebremos juntos los 443 años de Salazar de las Palmas.</p>
+        </div>
+        <div class="hero-copy-actions"><a class="btn btn-lime" href="#inscripcion">Inscríbete gratis ↗</a><a class="btn btn-outline" href="#galeria">Revive la emoción ↓</a></div>
+      </div></div>
+    </section>
+
+    <div class="container quickfacts" id="informacion">
+      <div class="fact"><span class="fact-icon">↗</span><div><strong>Distancia 5K</strong><small>Un reto para corredores</small></div></div>
+      <div class="fact"><span class="fact-icon">18+</span><div><strong>Solo mayores de edad</strong><small>Participación desde los 18 años</small></div></div>
+      <div class="fact"><span class="fact-icon">🏅</span><div><strong>443 años de tradición</strong><small>Corre con orgullo por Salazar</small></div></div>
+    </div>
+
+    <section id="carrera">
+      <div class="container about-grid">
+        <div>
+          <div class="section-kicker">Una celebración que se corre</div>
+          <h2 class="section-title">Nuestra historia.<br>Tu próximo reto.</h2>
+          <p class="section-intro">La Carrera Atlética Salazar de las Palmas 5K invita a la comunidad a celebrar los 443 años del municipio a través del deporte, la actividad física y el orgullo por nuestra tierra.</p>
+          <div class="feature-list">
+            <div class="feature"><span class="feature-mark">✓</span><div><strong>Un reto de 5 kilómetros</strong><p>Prepárate para vivir una jornada de energía, esfuerzo y espíritu deportivo.</p></div></div>
+            <div class="feature"><span class="feature-mark">✓</span><div><strong>Inscripción para mayores de 18 años</strong><p>La participación está reservada exclusivamente a personas que tengan 18 años o más.</p></div></div>
+            <div class="feature"><span class="feature-mark">✓</span><div><strong>Orgullo por nuestro municipio</strong><p>Una oportunidad para celebrar juntos la historia y tradición de Salazar de las Palmas.</p></div></div>
+          </div>
+        </div>
+        <div class="about-visual"><div class="visual-caption"><span>443 AÑOS · 5 KILÓMETROS</span><strong>Corre con orgullo.</strong></div></div>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="galeria">
+      <div class="container">
+        <div class="section-kicker">El deporte también cuenta nuestra historia</div>
+        <h2 class="section-title">Salazar corre unido.</h2>
+        <p class="section-intro">Momentos de nuestras calles, nuestra gente y la energía de quienes se atreven a llegar a la meta. Esta galería celebra el espíritu deportivo de Salazar de las Palmas.</p>
+        <div class="gallery-grid">
+          <figure class="gallery-card"><img src="assets/carrera-salida.jpg" alt="Participantes preparados para iniciar una carrera en Salazar de las Palmas" loading="lazy"><figcaption class="gallery-label"><small>La salida</small>Todo comienza con un paso</figcaption></figure>
+          <figure class="gallery-card"><img src="assets/carrera-meta.jpg" alt="Corredor cruzando la meta en una carrera local" loading="lazy"><figcaption class="gallery-label"><small>La meta</small>El orgullo de llegar</figcaption></figure>
+          <figure class="gallery-card"><img src="assets/carrera-participantes.jpg" alt="Jóvenes participando en actividad atlética en el municipio" loading="lazy"><figcaption class="gallery-label"><small>Nuestra gente</small>Una comunidad que se mueve</figcaption></figure>
+          <figure class="gallery-card"><img src="assets/salazar-catedral-aerea.jpg" alt="Vista aérea de la catedral y el centro de Salazar de las Palmas" loading="lazy"><figcaption class="gallery-label"><small>Nuestra tierra</small>Salazar, cuna del café</figcaption></figure>
+          <figure class="gallery-card"><img src="assets/premiacion-1.jpg" alt="Participantes y equipo organizador en una jornada deportiva" loading="lazy"><figcaption class="gallery-label"><small>Celebrar</small>El esfuerzo se comparte</figcaption></figure>
+          <figure class="gallery-card"><img src="assets/salazar-aereo-1.jpg" alt="Panorámica aérea de Salazar de las Palmas rodeado de montañas verdes" loading="lazy"><figcaption class="gallery-label"><small>El paisaje</small>Un reto entre montañas</figcaption></figure>
+        </div>
+        <div class="medal-band"><div><div class="section-kicker">Un recuerdo para llevar contigo</div><h3 style="font-size:2.1rem;color:var(--forest);margin:0 0 10px">443 años. Una meta que nos une.</h3><p class="section-intro">La medalla conmemorativa celebra el deporte y la historia de nuestro municipio.</p></div><img src="assets/medalla-5k.png" alt="Diseño de la medalla conmemorativa Salazar de las Palmas 5K 2026" loading="lazy"></div>
+      </div>
+    </section>
+
+    <section class="dark-section">
+      <div class="container">
+        <div class="section-kicker">Tu inscripción en pocos pasos</div>
+        <h2 class="section-title">Prepárate para la meta</h2>
+        <p class="section-intro">Completa el formulario con tus datos reales. La organización utilizará la información necesaria para administrar tu inscripción y coordinar el evento.</p>
+        <div class="steps">
+          <article class="step"><div class="step-number">01</div><h3>Registra tus datos</h3><p>Escribe tus datos personales y de contacto. Revisa todo antes de enviar el formulario.</p></article>
+          <article class="step"><div class="step-number">02</div><h3>Acepta las condiciones</h3><p>Lee el reglamento y las autorizaciones de tratamiento de datos aplicables al evento.</p></article>
+          <article class="step"><div class="step-number">03</div><h3>Envía tu inscripción</h3><p>Cuando se complete el envío, verás un mensaje de confirmación en esta página.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="inscripcion">
+      <div class="container">
+        <div class="section-kicker">Formulario oficial</div>
+        <h2 class="section-title">Inscríbete al 5K</h2>
+        <div class="registration-grid">
+          <aside class="register-aside">
+            <div class="eyebrow">Acepta el reto</div>
+            <h3>Tu lugar en la salida empieza aquí.</h3>
+            <p>Completa todos los campos obligatorios. La inscripción está dirigida exclusivamente a personas mayores de 18 años.</p>
+            <div class="deadline"><small>FECHA LÍMITE DE INSCRIPCIÓN</small><strong>Jueves 29 de octubre de 2026</strong></div>
+            <p style="font-size:.78rem">Antes de publicar, confirma con la organización la fecha, el horario, el punto de salida, el recorrido, el reglamento y la política de tratamiento de datos.</p>
+          </aside>
+
+          <div class="form-card">
+            <h3>Datos del participante</h3>
+            <p>Los campos marcados con * son obligatorios.</p>
+            <form id="registrationForm">
+              <div class="form-grid">
+                <div class="field full"><label for="fullName">Nombre completo *</label><input id="fullName" name="fullName" autocomplete="name" required maxlength="120" placeholder="Escribe tu nombre completo"></div>
+                <div class="field"><label for="docNumber">Número de documento *</label><input id="docNumber" name="docNumber" required maxlength="30" autocomplete="off" placeholder="Número de identificación"></div>
+                <div class="field"><label for="age">Edad *</label><input id="age" name="age" type="number" min="18" max="110" required placeholder="Edad en años"></div>
+                <div class="field"><label for="gender">Sexo *</label><select id="gender" name="gender" required><option value="">Selecciona una opción</option><option>Femenino</option><option>Masculino</option><option>Prefiero no indicarlo</option></select></div>
+                <div class="field"><label for="shirtSize">Talla de camiseta *</label><select id="shirtSize" name="shirtSize" required><option value="">Selecciona tu talla</option><option>S</option><option>M</option><option>L</option><option>XL</option></select></div>
+                <div class="field full"><label for="email">Correo electrónico *</label><input id="email" name="email" type="email" required maxlength="150" autocomplete="email" placeholder="tucorreo@ejemplo.com"></div>
+                <div class="field full"><label for="healthNote">¿Tienes alguna condición o restricción relevante para participar que desees comunicar al equipo de atención? *</label><textarea id="healthNote" name="healthNote" rows="3" required maxlength="500" placeholder="Indica la información relevante o escribe “Ninguna” si no aplica."></textarea><small>Este dato puede ser sensible. Se recomienda limitar su uso al equipo autorizado de atención durante el evento.</small></div>
+                <div class="field full"><label for="emergencyPhone">Número de contacto de emergencia *</label><input id="emergencyPhone" name="emergencyPhone" type="tel" required maxlength="30" placeholder="Teléfono de una persona de confianza"></div>
+                <div class="field full"><label for="priorRaces">¿Has participado anteriormente en carreras atléticas? *</label><select id="priorRaces" name="priorRaces" required><option value="">Selecciona una opción</option><option>Sí</option><option>No</option></select></div>
+              </div>
+              <div class="consents">
+                <label class="check"><input type="checkbox" name="rulesAccepted" required> <span>Declaro que he leído y acepto el reglamento de la Carrera Atlética Salazar de las Palmas 5K 2026. *</span></label>
+                <label class="check"><input type="checkbox" name="dataConsent" required> <span>Autorizo el tratamiento de mis datos personales conforme a la política de protección de datos informada por la organización. *</span></label>
+                <label class="check"><input type="checkbox" name="imageConsent"> <span>Autorizo el uso de fotografías y videos en los que aparezca durante el evento para fines de divulgación institucional, conforme a las condiciones informadas por la organización. Esta autorización es opcional.</span></label>
+                <label class="check"><input type="checkbox" name="adultDeclaration" required> <span>Declaro que soy mayor de 18 años, que la información suministrada en este formulario es veraz y que cumplo con el requisito de edad establecido para participar en la Carrera Atlética Salazar de las Palmas 5K 2026. *</span></label>
+              </div>
+              <button class="btn btn-lime submit-btn" id="submitBtn" type="submit">Enviar inscripción ↗</button>
+              <div id="formStatus" class="status" role="status" aria-live="polite"></div>
+              <p class="form-note">Al enviar el formulario, confirmas que has revisado los datos. No se debe publicar el formulario hasta añadir los enlaces reales al reglamento y a la política de tratamiento de datos, y probar el envío a la hoja de cálculo.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="preguntas">
+      <div class="container">
+        <div class="section-kicker" style="text-align:center">Resolvemos tus dudas</div>
+        <h2 class="section-title" style="text-align:center">Preguntas frecuentes</h2>
+        <div class="faq-list">
+          <details><summary>¿Quiénes pueden participar?</summary><p>La carrera está dirigida exclusivamente a personas mayores de 18 años. La organización debe verificar el cumplimiento de este requisito.</p></details>
+          <details><summary>¿Hasta cuándo puedo inscribirme?</summary><p>La fecha límite prevista es el jueves 29 de octubre de 2026. Confirma con la organización que esta fecha continúa vigente antes de publicar la página.</p></details>
+          <details><summary>¿Cómo sé si mi inscripción fue recibida?</summary><p>Al completar correctamente el envío, la página mostrará una confirmación. La organización podrá contactarte mediante los datos suministrados.</p></details>
+          <details><summary>¿Dónde consulto el recorrido y el reglamento?</summary><p>La organización debe publicar aquí los enlaces oficiales al reglamento, el recorrido, el horario y el punto de salida antes de abrir las inscripciones.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="institutional-strip" aria-label="Identidad institucional">
+      <div class="container institutional-row">
+        <img src="assets/logo-alcaldia-vertical.png" alt="Escudo institucional de la Alcaldía de Salazar de las Palmas" loading="lazy">
+        <img src="assets/logo-salazar-cafe.png" alt="Marca territorial Salazar de las Palmas, cuna del café en Colombia" loading="lazy">
+      </div>
+    </section>
+
+    <div class="final-cta"><div class="container cta-row"><div><h2>443 años. Un municipio.<br>Un mismo espíritu.</h2><p>Corre por la historia. Vive el reto.</p></div><a class="btn" style="background:var(--forest);color:white" href="#inscripcion">Quiero inscribirme ↗</a></div></div>
+  </main>
+  <footer><div class="container footer-row">
+    <img class="footer-brand-logo" src="assets/logo-alcaldia-blanco.png" alt="Alcaldía de Salazar de las Palmas" loading="lazy">
+    <small>Salazar de las Palmas 5K · 2026<br>443 años de historia, tradición y orgullo.</small>
+    <img class="footer-brand-logo" src="assets/logo-salazar-cafe.png" alt="Salazar de las Palmas, cuna del café en Colombia" loading="lazy">
+    <div class="design-credit">DISEÑO: <strong>IRREVERENTE COMUNICACIONES S.A.S. / L.R.</strong></div>
+  </div></footer>
+
+  <script>
+    // Pega aquí la URL de implementación de Google Apps Script después de configurarlo.
+    const SCRIPT_URL = "PEGA_AQUI_LA_URL_DE_TU_APPS_SCRIPT";
+
+    function showStatus(message, type) {
+      const box = document.getElementById("formStatus");
+      box.textContent = message;
+      box.className = "status show " + type;
+    }
+
+    document.getElementById("registrationForm").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      const age = Number(form.elements.age.value);
+      if (!Number.isInteger(age) || age < 18 || age > 110) {
+        showStatus("La carrera es exclusiva para personas mayores de edad (18 años o más). Verifica tu edad.", "error");
+        form.elements.age.focus();
+        return;
+      }
+      if (SCRIPT_URL.includes("PEGA_AQUI")) {
+        showStatus("El diseño está listo, pero falta conectar la hoja de cálculo. Sigue la guía incluida en el paquete para configurar Google Apps Script antes de publicar.", "error");
+        return;
+      }
+      const btn = document.getElementById("submitBtn");
+      btn.disabled = true; btn.textContent = "Enviando…";
+      const data = Object.fromEntries(new FormData(form).entries());
+      data.adultDeclaration = form.elements.adultDeclaration.checked;
+      data.rulesAccepted = form.elements.rulesAccepted.checked;
+      data.dataConsent = form.elements.dataConsent.checked;
+      data.imageConsent = form.elements.imageConsent.checked;
+      data.age = age;
+      data.submittedAt = new Date().toISOString();
+      try {
+        await fetch(SCRIPT_URL, {
+          method: "POST",
+          mode: "no-cors",
+          headers: {"Content-Type":"text/plain;charset=utf-8"},
+          body: JSON.stringify(data)
+        });
+        form.reset();
+        showStatus("Tu solicitud de inscripción fue enviada. Gracias por sumarte a Salazar 5K. Si no recibes confirmación por otro canal, consulta con la organización para verificar el registro.", "success");
+      } catch (error) {
+        showStatus("No se pudo enviar la inscripción. Comprueba tu conexión e inténtalo de nuevo o contacta con la organización.", "error");
+      } finally {
+        btn.disabled = false; btn.textContent = "Enviar inscripción ↗";
+      }
+    });
+  </script>
+</body>
+</html>
